@@ -1,1 +1,1 @@
-# React + Vi
+Projeto todo-list com React + vite
