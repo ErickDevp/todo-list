@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/input.css";
+import "../css/Input.css";
 import iconSoma from "../assets/icon-soma.svg";
 
 export default function Input({setInputValue, inputValue, handleAddTask}) {
