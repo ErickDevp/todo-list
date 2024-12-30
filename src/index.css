@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", serif;
+}
+
+:root {
+    --background: #FFFFFF;
+    --color-primary: #0FC380;
+    --color-input: #EDEEF0;
+    --color-placeholder: #AFAFAF;
+    --color-font: #303030;
+} 

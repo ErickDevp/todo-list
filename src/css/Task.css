@@ -1,0 +1,42 @@
+.task {
+    background: var(--color-input);
+    padding: 10px 10px 10px 20px;
+    margin: 0 20px 10px;
+
+    min-width: 240px;
+    height: 68px;
+    border-radius: 10px;
+
+    list-style: none;
+    font-weight: 700;
+    font-size: 17px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.task:hover {
+    background: #e2e3e4;
+}
+
+.task button {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    color: var(--color-primary);
+    font-size: 23px;
+    transition: 300ms;
+    background: none;
+}
+
+.task button:hover {
+    color: #10af75;
+}
+
+.selected {
+    text-decoration: line-through;
+    color: #850202;
+}
