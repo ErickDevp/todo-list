@@ -54,7 +54,7 @@ export default function App() {
 
     return (
         <div className="app">
-            <h1>Todo List</h1>
+            <h1>todo list</h1>
             <main>
                 <Input
                     setInputValue={setInputValue}
@@ -62,7 +62,7 @@ export default function App() {
                     handleAddTask={handleAddTask}
                 />
                 <ul>
-                    {tasks.map((task) => (
+                    {tasks.slice().reverse().map((task) => (
                         <Task
                             key={task.id}
                             task={task.task}
